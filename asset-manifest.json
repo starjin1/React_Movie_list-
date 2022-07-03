@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/starjin1/React_Movie_list-/static/css/main.ab080950.css",
+    "main.js": "/starjin1/React_Movie_list-/static/js/main.96aa9de8.js",
+    "static/js/787.7c42db31.chunk.js": "/starjin1/React_Movie_list-/static/js/787.7c42db31.chunk.js",
+    "index.html": "/starjin1/React_Movie_list-/index.html",
+    "main.ab080950.css.map": "/starjin1/React_Movie_list-/static/css/main.ab080950.css.map",
+    "main.96aa9de8.js.map": "/starjin1/React_Movie_list-/static/js/main.96aa9de8.js.map",
+    "787.7c42db31.chunk.js.map": "/starjin1/React_Movie_list-/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab080950.css",
+    "static/js/main.96aa9de8.js"
+  ]
+}
