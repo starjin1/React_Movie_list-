@@ -5,8 +5,12 @@ import styled from 'styled-components';
 
 
 const Loading = styled.h3`
-font-size: 45px;
-color: red;
+font-size: 35px;
+color: #212121;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+margin-top: 3rem;
 `;
 
 function About() {
@@ -19,11 +23,15 @@ function About() {
       .then((json) => {
         console.log(json.data.movie);
         setmv_detail(json.data.movie);
+        setLoading(false);
       });
   }, []);
   return (
+    <div>
+    {loading ? (
+      <Loading>Loading...</Loading>
+    ) : (
     <div className={stylese.box}>
-  
       <div className={stylese.subbox_detail}>
         <h3>
           {mv_detail.title}({mv_detail.year})
@@ -46,6 +54,8 @@ function About() {
         <p> Runtime : {mv_detail.runtime}분</p>
       </div>
     </div>
-  );
+    )}
+  </div>
+);
 }
 export default About;
